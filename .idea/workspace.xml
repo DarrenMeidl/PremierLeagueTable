@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff4038c2-2046-447c-a60f-4a1c1c3a344a" name="Changes" comment="Creating table print method, made MainApp class">
+    <list default="true" id="ff4038c2-2046-447c-a60f-4a1c1c3a344a" name="Changes" comment="Created table printing method and called it in the MainApp class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/League.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainApp.java" afterDir="false" />
@@ -76,13 +76,22 @@
       <option name="project" value="LOCAL" />
       <updated>1696579579631</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created table printing method and called it in the MainApp class">
+      <option name="closed" value="true" />
+      <created>1696580936403</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696580936403</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created LeagueEntry class, added fields, getters, setters, constructors &amp; ToString" />
     <MESSAGE value="Created League class, created array list, added 2 entries &amp; prints the list." />
     <MESSAGE value="Creating table print method, made MainApp class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating table print method, made MainApp class" />
+    <MESSAGE value="Created table printing method and called it in the MainApp class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created table printing method and called it in the MainApp class" />
   </component>
 </project>

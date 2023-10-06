@@ -4,5 +4,6 @@ public class MainApp {
 
         season2324.printTable();
         season2324.playMatch();
+        season2324.printTable();
     }
 }
