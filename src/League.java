@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 public class League {
     ArrayList<LeagueEntry> leagueEntryList;
@@ -30,13 +29,13 @@ public class League {
         g1 = rand1.nextInt(10) + 1;
         g2 = rand2.nextInt(10) + 1;
 
-        t1 = team1.nextInt(leagueEntryList.size() + 1);
-        t2 = team2.nextInt(leagueEntryList.size() + 1);
+        t1 = team1.nextInt(leagueEntryList.size()) + 1;
+        t2 = team2.nextInt(leagueEntryList.size()) + 1;
 
         if (t1 == t2){
             for (int i = 1; i > 0; i++){
                 Random rand3 = new Random();
-                t2 = rand3.nextInt(leagueEntryList.size() + 1);
+                t2 = rand3.nextInt(leagueEntryList.size()) + 1;
                 if (t1 == t2){
                     i = 1;
                 }
@@ -51,29 +50,29 @@ public class League {
             leagueEntryList.get(t1).addGamesPlayed();
             leagueEntryList.get(t1).addThreePoints();
 
-            leagueEntryList.get(t2).setGamesLost(leagueEntryList.get(t2).getGamesLost() + 1);
-            leagueEntryList.get(t2).setGamesPlayed(leagueEntryList.get(t2).getGamesPlayed() + 1);
+            leagueEntryList.get(t2).addGamesLost();
+            leagueEntryList.get(t2).addGamesPlayed();
         }
 
         //If Team 2 Wins the game
         else if (g1 < g2){
-            leagueEntryList.get(t2).setGamesWon(leagueEntryList.get(t2).getGamesWon() + 1);
-            leagueEntryList.get(t2).setGamesPlayed(leagueEntryList.get(t2).getGamesPlayed() + 1);
-            leagueEntryList.get(t2).setTotalPoints(leagueEntryList.get(t2).getTotalPoints() + 3);
+            leagueEntryList.get(t2).addGamesWon();
+            leagueEntryList.get(t2).addGamesPlayed();
+            leagueEntryList.get(t2).addThreePoints();
 
-            leagueEntryList.get(t1).setGamesLost(leagueEntryList.get(t1).getGamesLost() + 1);
-            leagueEntryList.get(t1).setGamesPlayed(leagueEntryList.get(t1).getGamesPlayed() + 1);
+            leagueEntryList.get(t1).addGamesLost();
+            leagueEntryList.get(t1).addGamesPlayed();
         }
 
         //If both Teams Draw the game
         else if (g1 == g2){
-            leagueEntryList.get(t2).setGamesDrew(leagueEntryList.get(t2).getGamesDrew() + 1);
-            leagueEntryList.get(t2).setGamesPlayed(leagueEntryList.get(t2).getGamesPlayed() + 1);
-            leagueEntryList.get(t2).setTotalPoints(leagueEntryList.get(t2).getTotalPoints() + 1);
+            leagueEntryList.get(t2).addGamesDrew();
+            leagueEntryList.get(t2).addGamesPlayed();
+            leagueEntryList.get(t2).addOnePoint();
 
-            leagueEntryList.get(t1).setGamesDrew(leagueEntryList.get(t1).getGamesDrew() + 1);
-            leagueEntryList.get(t1).setGamesPlayed(leagueEntryList.get(t1).getGamesPlayed() + 1);
-            leagueEntryList.get(t1).setTotalPoints(leagueEntryList.get(t1).getTotalPoints() + 1);
+            leagueEntryList.get(t1).addGamesDrew();
+            leagueEntryList.get(t1).addGamesPlayed();
+            leagueEntryList.get(t1).addOnePoint();
         }
     }
     //3. Adds team to League
