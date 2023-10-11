@@ -29,13 +29,13 @@ public class League {
         g1 = rand1.nextInt(10) + 1;
         g2 = rand2.nextInt(10) + 1;
 
-        t1 = team1.nextInt(leagueEntryList.size()) + 1;
-        t2 = team2.nextInt(leagueEntryList.size()) + 1;
+        t1 = team1.nextInt(leagueEntryList.size());
+        t2 = team2.nextInt(leagueEntryList.size());
 
         if (t1 == t2){
             for (int i = 1; i > 0; i++){
                 Random rand3 = new Random();
-                t2 = rand3.nextInt(leagueEntryList.size()) + 1;
+                t2 = rand3.nextInt(leagueEntryList.size());
                 if (t1 == t2){
                     i = 1;
                 }
