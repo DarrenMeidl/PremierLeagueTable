@@ -2,8 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 public class League {
-    private List<LeagueEntry> leagueEntryList = new ArrayList<>();
+    ArrayList<LeagueEntry> leagueEntryList;
     public League(){
+        this.leagueEntryList = new ArrayList<>();
         leagueEntryList.add(new LeagueEntry());
         leagueEntryList.add(new LeagueEntry("Liverpool", 5, 5, 0, 0, 15));
     }
@@ -23,10 +24,16 @@ public class League {
         Random team1 = new Random();
         Random team2 = new Random();
 
-        int g1 = rand1.nextInt(10) + 1;
-        int g2 = rand2.nextInt(10) + 1;
-        int t1 = team1.nextInt(leagueEntryList.size() + 1);
-        int t2 = team2.nextInt(leagueEntryList.size() + 1);
+        int g1;
+        int g2;
+        int t1;
+        int t2;
+
+        g1 = rand1.nextInt(10) + 1;
+        g2 = rand2.nextInt(10) + 1;
+
+        t1 = team1.nextInt(leagueEntryList.size() + 1);
+        t2 = team2.nextInt(leagueEntryList.size() + 1);
 
         if (t1 == t2){
             for (int i = 1; i > 0; i++){

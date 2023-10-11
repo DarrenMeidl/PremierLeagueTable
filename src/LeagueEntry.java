@@ -39,6 +39,16 @@ public class LeagueEntry implements Comparable<LeagueEntry>{
     public void setGamesDrew(int gamesDrew){ this.gamesDrew = gamesDrew;}
     public void setTotalPoints(int totalPoints){ this.totalPoints = totalPoints;}
 
+
+    //General Methods
+    public void addGamesPlayed(int gamesPlayed){ this.gamesPlayed = gamesPlayed + 1;}
+    public void addGamesWon(int gamesWon){ this.gamesWon = gamesWon + 1;}
+    public void addGamesLost(int gamesLost){ this.gamesLost = gamesLost + 1;}
+    public void addGamesDrew(int gamesDrew){ this.gamesDrew = gamesDrew + 1;}
+    public void addThreePoints(int totalPoints){ this.totalPoints = totalPoints + 3;}
+    public void addOnePoint(int totalPoints){ this.totalPoints = totalPoints + 1;}
+
+    //Override Methods
     @Override
     public String toString() {
         return "TEAM: " + name + ", Games Played: " + gamesPlayed + ", Games Won: "+gamesWon+

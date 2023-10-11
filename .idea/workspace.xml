@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff4038c2-2046-447c-a60f-4a1c1c3a344a" name="Changes" comment="Creating play match method, still not working properly">
+    <list default="true" id="ff4038c2-2046-447c-a60f-4a1c1c3a344a" name="Changes" comment="Added extra Random objects to ensure different values for each g &amp; t integers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/League.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeagueEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeagueEntry.java" afterDir="false" />
@@ -93,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696582495776</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added extra Random objects to ensure different values for each g &amp; t integers">
+      <option name="closed" value="true" />
+      <created>1697013836493</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697013836493</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -102,6 +110,7 @@
     <MESSAGE value="Creating table print method, made MainApp class" />
     <MESSAGE value="Created table printing method and called it in the MainApp class" />
     <MESSAGE value="Creating play match method, still not working properly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating play match method, still not working properly" />
+    <MESSAGE value="Added extra Random objects to ensure different values for each g &amp; t integers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added extra Random objects to ensure different values for each g &amp; t integers" />
   </component>
 </project>
