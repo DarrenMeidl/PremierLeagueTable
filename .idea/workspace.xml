@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff4038c2-2046-447c-a60f-4a1c1c3a344a" name="Changes" comment="Fixing small errors in playMatch() method code &amp; removed List import">
+    <list default="true" id="ff4038c2-2046-447c-a60f-4a1c1c3a344a" name="Changes" comment="Split Random objects to first declare the variables then to assign them">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/League.java" afterDir="false" />
     </list>
@@ -140,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697015914028</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Removed +1 to each nextInt in League class, playMatch() method now runs. Results still aren't random though">
+      <option name="closed" value="true" />
+      <created>1697016108255</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697016108255</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -155,6 +163,8 @@
     <MESSAGE value="Changed add method name, moved instances of LeagueEntry objects to MainApp class" />
     <MESSAGE value="Removed unneeded parameters from new general methods in LeagueEntry class" />
     <MESSAGE value="Fixing small errors in playMatch() method code &amp; removed List import" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing small errors in playMatch() method code &amp; removed List import" />
+    <MESSAGE value="Removed +1 to each nextInt in League class, playMatch() method now runs. Results still aren't random though" />
+    <MESSAGE value="Split Random objects to first declare the variables then to assign them" />
+    <option name="LAST_COMMIT_MESSAGE" value="Split Random objects to first declare the variables then to assign them" />
   </component>
 </project>
