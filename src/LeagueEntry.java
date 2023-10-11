@@ -41,8 +41,8 @@ public class LeagueEntry implements Comparable<LeagueEntry>{
 
 
     //General Methods
-    public void addGamesPlayed(int gamesPlayed){ this.gamesPlayed = gamesPlayed + 1;}
-    public void addGamesWon(int gamesWon){ this.gamesWon = gamesWon + 1;}
+    public void addGamesPlayed(){ this.gamesPlayed = gamesPlayed + 1;}
+    public void addGamesWon(){ this.gamesWon = gamesWon + 1;}
     public void addGamesLost(int gamesLost){ this.gamesLost = gamesLost + 1;}
     public void addGamesDrew(int gamesDrew){ this.gamesDrew = gamesDrew + 1;}
     public void addThreePoints(int totalPoints){ this.totalPoints = totalPoints + 3;}

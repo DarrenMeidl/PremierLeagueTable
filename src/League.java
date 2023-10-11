@@ -5,8 +5,6 @@ public class League {
     ArrayList<LeagueEntry> leagueEntryList;
     public League(){
         this.leagueEntryList = new ArrayList<>();
-        leagueEntryList.add(new LeagueEntry());
-        leagueEntryList.add(new LeagueEntry("Liverpool", 5, 5, 0, 0, 15));
     }
 
     //METHODS
@@ -49,7 +47,7 @@ public class League {
         }
         //If Team 1 Wins the game
         if (g1 > g2){
-            leagueEntryList.get(t1).setGamesWon(leagueEntryList.get(t1).getGamesWon() + 1);
+            leagueEntryList.get(t1).addGamesWon();
             leagueEntryList.get(t1).setGamesPlayed(leagueEntryList.get(t1).getGamesPlayed() + 1);
             leagueEntryList.get(t1).setTotalPoints(leagueEntryList.get(t1).getTotalPoints() + 3);
 
@@ -78,8 +76,8 @@ public class League {
             leagueEntryList.get(t1).setTotalPoints(leagueEntryList.get(t1).getTotalPoints() + 1);
         }
     }
-
-    public void addEntry(LeagueEntry team){
+    //3. Adds team to League
+    public void add(LeagueEntry team){
         leagueEntryList.add(team);
     }
 }
