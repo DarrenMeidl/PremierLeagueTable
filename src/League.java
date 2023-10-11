@@ -78,4 +78,8 @@ public class League {
             leagueEntryList.get(t1).setTotalPoints(leagueEntryList.get(t1).getTotalPoints() + 1);
         }
     }
+
+    public void addEntry(LeagueEntry team){
+        leagueEntryList.add(team);
+    }
 }
