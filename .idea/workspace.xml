@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff4038c2-2046-447c-a60f-4a1c1c3a344a" name="Changes" comment="Created add team method in League class">
+    <list default="true" id="ff4038c2-2046-447c-a60f-4a1c1c3a344a" name="Changes" comment="Changed add method name, moved instances of LeagueEntry objects to MainApp class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/League.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeagueEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeagueEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697014928178</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Changed add method name, moved instances of LeagueEntry objects to MainApp class">
+      <option name="closed" value="true" />
+      <created>1697015248483</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697015248483</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -130,6 +137,7 @@
     <MESSAGE value="Added extra Random objects to ensure different values for each g &amp; t integers" />
     <MESSAGE value="Created new methods in LeagueEntry &amp; Adjusted code in League class" />
     <MESSAGE value="Created add team method in League class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created add team method in League class" />
+    <MESSAGE value="Changed add method name, moved instances of LeagueEntry objects to MainApp class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed add method name, moved instances of LeagueEntry objects to MainApp class" />
   </component>
 </project>

@@ -48,8 +48,8 @@ public class League {
         //If Team 1 Wins the game
         if (g1 > g2){
             leagueEntryList.get(t1).addGamesWon();
-            leagueEntryList.get(t1).setGamesPlayed(leagueEntryList.get(t1).getGamesPlayed() + 1);
-            leagueEntryList.get(t1).setTotalPoints(leagueEntryList.get(t1).getTotalPoints() + 3);
+            leagueEntryList.get(t1).addGamesPlayed();
+            leagueEntryList.get(t1).addThreePoints();
 
             leagueEntryList.get(t2).setGamesLost(leagueEntryList.get(t2).getGamesLost() + 1);
             leagueEntryList.get(t2).setGamesPlayed(leagueEntryList.get(t2).getGamesPlayed() + 1);
