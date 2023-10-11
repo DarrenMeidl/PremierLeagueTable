@@ -18,17 +18,22 @@ public class League {
     }
     //2. Plays Random Match Between 2 Teams
     public void playMatch(){
-        Random rand = new Random();
-        int g1 = rand.nextInt(10) + 1;
-        int g2 = rand.nextInt(10) + 1;
-        int t1 = rand.nextInt(leagueEntryList.size() + 1);
-        int t2 = rand.nextInt(leagueEntryList.size() + 1);
+        Random rand1 = new Random();
+        Random rand2 = new Random();
+        Random team1 = new Random();
+        Random team2 = new Random();
+
+        int g1 = rand1.nextInt(10) + 1;
+        int g2 = rand2.nextInt(10) + 1;
+        int t1 = team1.nextInt(leagueEntryList.size() + 1);
+        int t2 = team2.nextInt(leagueEntryList.size() + 1);
 
         if (t1 == t2){
-            for (int i = 0; i > 0; i++){
-                t2 = rand.nextInt(leagueEntryList.size() + 1);
+            for (int i = 1; i > 0; i++){
+                Random rand3 = new Random();
+                t2 = rand3.nextInt(leagueEntryList.size() + 1);
                 if (t1 == t2){
-                    i = 0;
+                    i = 1;
                 }
                 else {
                     i = -1;

@@ -1,4 +1,4 @@
-public class LeagueEntry {
+public class LeagueEntry implements Comparable<LeagueEntry>{
     //Fields
     private String name;
     private int gamesPlayed;
@@ -45,5 +45,9 @@ public class LeagueEntry {
                 ", Games Lost: "+gamesLost+", Games Drew: "+gamesDrew+", Total Points: "+totalPoints;
     }
 
+    @Override
+    public int compareTo(LeagueEntry other){
+        return this.name.compareTo(other.name);
+    }
 
 }
